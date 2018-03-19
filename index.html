@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BleeperFood</title>
+    <link href="https://fonts.googleapis.com/css?family=Carter+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+    <header>
+        <nav class="item-nav">
+            <ul>
+                <li>
+                    <a href="">Nosotros</a>
+                </li>
+                <li>
+                    <a href="">Ayuda</a>
+                </li>
+                <li>
+                    <a href="">Sugerir Restaurant</a>
+                </li>
+                <li>
+                    <a href="">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="row fix-margin">
+            <div class="input-field col s4 offset-s4 center-align box-text">
+                <h1 class="center-align">BleeperFood</h1>
+                <h5>Encuentra tu Restaurant Favorito</h5>
+                <input placeholder="Busca por tipo de comida, ciudad o lo que mas te guste" id="search" type="text" class="validate">
+                <button id="btn-search" class="btn waves-effect pulse" type="submit" name="action">Buscar</button>
+            </div>
+        </div>
+        <h2 class="center-align">Toda la informacion que buscas de tu restaurant Favorito</h2>
+    </header>
+
+    <section class="insert">
+
+        <div class="row">
+            <div id="card-insert"></div>
+        </div>
+    </section>
+    <!--Scripts -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
